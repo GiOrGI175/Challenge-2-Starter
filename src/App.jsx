@@ -10,7 +10,7 @@ const App = () => {
           <Navbar />
         </div>
 
-        <div className='flex items-center justify-center px-6 bg-primary sm:px-16 '>
+        <div className='flex items-center justify-center px-6 bg-primary sm:px-16 w-full'>
           <div className='max-w-[1280px] w-full '>
             <Footer />
           </div>
