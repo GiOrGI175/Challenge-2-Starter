@@ -52,7 +52,7 @@ const Footer = () => {
         <p className="text-normal mt-4 max-w-[312px] font-poppins text-[16px] font-normal leading-[27.8px] text-[White]">
           Copyright c 2021 HooBank. All Rights Reserved.
         </p>
-        <div className="felx felx-row mt-6 gap-[30px] md:mt-0">
+        <div className="mt-6 flex flex-row gap-[30px] md:mt-0">
           {socialMedia.map((social) => (
             <img
               key={social.id}

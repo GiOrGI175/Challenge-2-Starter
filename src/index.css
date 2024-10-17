@@ -34,6 +34,57 @@
   text-fill-color: transparent;
 }
 
+.gradient-text {
+  background: radial-gradient(
+    circle,
+    #def9fa 0%,
+    #bef3f5 20%,
+    #9dedf0 40%,
+    #7de7eb 60%,
+    #5ce1e6 80%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-gradient-2 {
+  background: linear-gradient(
+    to left bottom,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.custom-gradient-1 {
+  background: linear-gradient(to right, #272727 0%, #11101d 100%);
+}
+
+.custom-gradient-5 {
+  background: linear-gradient(113.018deg, #ffffff 0%, #14101d 100%);
+}
+
+.custom-gradient-4 {
+  background: linear-gradient(
+    158.353deg,
+    #def9fa 1%,
+    #bef3f5 17%,
+    #9dedf0 42%,
+    #7de7eb 55%,
+    #5ce1e6 72%,
+    #33bbcf 100%
+  );
+}
+
+.custom-gradient-3 {
+  background: linear-gradient(
+    157.206deg,
+    rgba(255, 255, 255, 0%) 0%,
+    #14101d 100%
+  );
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
